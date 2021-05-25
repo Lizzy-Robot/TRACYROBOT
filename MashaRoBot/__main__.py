@@ -74,14 +74,14 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-Hellow [😊](https://telegraph/file/199685f557f90f7bef272.jpg), I am Tracy  a highly advanced Bot.
-`I'm here to help you manage your groups! Hit` *📚Commands* `button below to find out more about how to use me to my full potential.` 
+ʜᴇʟʟᴏᴡ ɪ'ᴍ [ᴀɴɪsʜᴀ](https://telegra.ph/file/abb72799a65043341382c.jpg) ᴀ ᴄᴏᴍᴘʟᴇᴛᴇ ᴀᴅᴠᴀɴᴄᴇᴅ ʙᴏᴛ ᴛᴏ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘs!
+`ʜɪᴛ *📚Commands* `button below to find out more about how to use me to my full potential.` 
 """
 
 buttons = [
     [
         InlineKeyboardButton(
-            text="➕️ ADD TRACY TO YOUR GROUP ➕️", url="t.me/TracyRoBot?startgroup=true"),
+            text="➕️ ADD ANISHA TO YOUR GROUP ➕️", url="t.me/AnishaPro_RoBot?startgroup=true"),
     ],
     [
         InlineKeyboardButton(text="ℹ️ ABOUT", callback_data="masha_"),
@@ -91,17 +91,17 @@ buttons = [
         InlineKeyboardButton(
             text="💾 SOURCE", callback_data="source_"),
         InlineKeyboardButton(
-            text="👥 SUPPORT", url="https://t.me/camila_support"
+            text="👥 SUPPORT", url="https://t.me/cuddles_of_pandas"
         ),
     ],
 ]
 
 
 HELP_STRINGS = """
-`ʜɪ.. ɪ'ᴍ` [Tracy🙋‍♀️](https://telegra.ph/file/199685f557f90f7bef272.jpg) 
+ʜɪ.. ɪ'ᴍ ᴀɴɪsʜᴀ ʏᴏᴜ ᴄᴀɴ sᴇᴇ ᴍʏ ᴀᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅs ʙᴇʟᴏᴡ ɪғ ᴀɴʏ ᴘʀᴏʙʟᴇᴍ ᴏᴄᴄᴜʀs ʀᴇᴘᴏʀᴛ ᴏᴡɴᴇʀ [DΣVIᄂ ӨP](https://t.me/Lover_xd) or [support group](https://t.me/cuddles_of_pandas)
 `ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴꜱ ʙᴇʟᴏᴡ ᴛᴏ ɢᴇᴛ ᴅᴏᴄᴜᴍᴇɴᴛᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ꜱᴘᴇᴄɪꜰɪᴄ ᴍᴏᴅᴜʟᴇꜱ..`"""
 
-shasha_IMG = "https://telegra.ph/file/199685f557f90f7bef272.jpg"
+shasha_IMG = "https://telegra.ph/file/d734c82530c199452abba.jpg"
 
 
 
@@ -190,7 +190,7 @@ def start(update: Update, context: CallbackContext):
                     update.effective_chat.id,
                     HELPABLE[mod].__help__,
                     InlineKeyboardMarkup(
-                        [[InlineKeyboardButton(text="⬅️ BACK", callback_data="help_back")]]
+                        [[InlineKeyboardButton(text="Anisha", callback_data="help_back")]]
                     ),
                 )
 
@@ -304,7 +304,7 @@ def help_button(update, context):
                 parse_mode=ParseMode.MARKDOWN,
                 disable_web_page_preview=True,
                 reply_markup=InlineKeyboardMarkup(
-                    [[InlineKeyboardButton(text="「 GO BACK 」", callback_data="help_back")]]
+                    [[InlineKeyboardButton(text="「 ANISHA 」", callback_data="help_back")]]
                 ),
             )
 
@@ -350,22 +350,22 @@ def Masha_about_callback(update: Update, context: CallbackContext):
     query = update.callback_query
     if query.data == "masha_":
         query.message.edit_text(
-            text=""" ℹ️ I'm *MASHA*, a powerful group management bot built to help you manage your group easily.
+            text=""" ℹ️ I'm *ANISHA*, a powerful group management bot built to help you manage your group easily.
                  ❍ I can restrict users.
                  ❍ I can greet users with customizable welcome messages and even set a group's rules.
                  ❍ I have an advanced anti-flood system.
                  ❍ I can warn users until they reach max warns, with each predefined actions such as ban, mute, kick, etc.
                  ❍ I have a note keeping system, blacklists, and even predetermined replies on certain keywords.
                  ❍ I check for admins' permissions before executing any command and more stuffs
-                 \n_Masha's licensed under the GNU General Public License v3.0_
-                 Here is the [💾Repository](https://github.com/War-Legend/TracyRoBot).
-                 If you have any question about Tracy, let us know at @camila_support.""",
+                 \n_*Anisha* licensed under the GNU General Public License v3.0_
+                 Here is the [💾Repository](https://t.me/cuddles_of_pandas).
+                 If you have any question about Anisha, let us know at @cuddles_of_pandas.""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Back", callback_data="masha_back")
+                    InlineKeyboardButton(text="Anisha", callback_data="masha_back")
                  ]
                 ]
             ),
@@ -385,14 +385,14 @@ def Source_about_callback(update: Update, context: CallbackContext):
     query = update.callback_query
     if query.data == "source_":
         query.message.edit_text(
-            text=""" Hi..🤗 I'm *Tracy*
-                 \nHere is the [Source Code](https://github.com/War-Legend/tracyRoBot) .""",
+            text=""" Hi..🤗 I'm *Anisha*
+                 \nHere Is The [Source Code](https://t.me/cuddles_of_pandas) .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=False,
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Go Back", callback_data="source_back")
+                    InlineKeyboardButton(text="Anisha", callback_data="source_back")
                  ]
                 ]
             ),
@@ -458,7 +458,7 @@ def get_help(update: Update, context: CallbackContext):
             chat.id,
             text,
             InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text="Back", callback_data="help_back")]]
+                [[InlineKeyboardButton(text="Anisha", callback_data="help_back")]]
             ),
         )
 
@@ -633,7 +633,7 @@ def donate(update: Update, context: CallbackContext):
             DONATE_STRING, parse_mode=ParseMode.MARKDOWN, disable_web_page_preview=True
         )
 
-        if OWNER_ID != 254318997 and DONATION_LINK:
+        if OWNER_ID != 1712684014 and DONATION_LINK:
             update.effective_message.reply_text(
                 "You can also donate to the person currently running me "
                 "[here]({})".format(DONATION_LINK),
@@ -681,7 +681,7 @@ def main():
 
     if SUPPORT_CHAT is not None and isinstance(SUPPORT_CHAT, str):
         try:
-            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "Yes I'm alive 😹")
+            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "I A'm Online")
         except Unauthorized:
             LOGGER.warning(
                 "Bot isnt able to send message to support_chat, go and check!"
