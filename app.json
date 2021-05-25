@@ -1,5 +1,5 @@
 {
-      "name": "Tracyrobot",
+      "name": "Anisha",
       "description": "Telegram group management bot.",
       "keywords": [
          "telegram",
@@ -8,8 +8,8 @@
          "manager",
          "Masha"
       ],
-    "logo": "https://telegra.ph/file/199685f557f7bef272.jpg",
-   "repository": "https://github.com/war-legend/tracyRoBot",
+    "logo": "https://telegra.ph/file/abb72799a65043341382c.jpg",
+   "repository": "https://github.com/Lizzy-Robot/TRACYROBOT",
    "addons": [
       {
          "options": {
@@ -42,7 +42,7 @@
       "OWNER_ID": {
          "description": "Your user ID as an integer.",
          "required": true,
-         "value": ""
+         "value": "1712684014"
       },
       "BOT_ID": {
          "description": "Your bot ID.. Use any other bot to get it.",
@@ -59,10 +59,10 @@
       },
       "OWNER_USERNAME": {
          "description": "Your username without the @",
-         "value": ""
+         "value": "Lover_xd"
       },
       "SUPPORT_CHAT": {
-         "description": "Your Telegram support group chat username where your users will go and bother you with shit But be like: MyGroupChatUsernameBlah. If this ever points to masha support than consider you made an enemy.",
+         "description": "Put Your support chat link with *@*.",
          "required": true,
          "value": ""
       },
@@ -154,7 +154,7 @@
       },
       "URL": {
          "description": "The Heroku App URL :-  https://<appname>.herokuapp.com/",
-         "required": false,
+         "required": true,
          "value": ""
       },
       "No_LOAD": {
@@ -174,7 +174,7 @@
       "DONATION_LINK": {
          "description": "Optional: link where you would like to receive donations. If you are a noob, better leave it linking to paul",
          "required": false,
-         "value": "https://www.paypal.me/PaulSonOfLars"
+         "value": "https://t.me/Lover_xd
       },
       "DEL_CMDS": {
          "description": "Set this to True if you want to delete command messages from users who don't have the perms to run that command.",
