@@ -1,20 +1,5 @@
 
 
-
-
-
-
-
-
-
-
-
-
-
-<p align="center">
-  <img src="https://media.giphy.com/media/Qv9p77hBf48DutDzvr/giphy.gif">
-</p>
-
 # TracyRobot
 Me On Telegram [✨Anisha✨](https://t.me/AnishaPro_RoBot)
 
